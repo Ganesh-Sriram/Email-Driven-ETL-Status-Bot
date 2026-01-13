@@ -57,7 +57,7 @@ All ready-to-use SQL queries for viewing and updating these tables are available
 
 Update the following values in `etl_status_bot.py`:
 
-python```
+```
 EMAIL_ID = "your_email@gmail.com"
 APP_PASSWORD = "your_app_password"
 
