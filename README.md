@@ -8,9 +8,13 @@ Users can simply send a blank or short email to a configured inbox and receive a
 ## 📂 Project Structure
 
 ETL_Status_Bot/
+
 │
+
 ├── etl_status_bot.py
+
 ├── etl_status_bot_queries.sql
+
 └── README.md
 
 ---
@@ -81,21 +85,23 @@ POLL_INTERVAL = 10  #seconds
 
 1️⃣ Install dependencies
 
-   pip install psycopg2
+   - pip install psycopg2
 
-   imaplib, email, smtplib, and time are part of Python’s standard library.
+   - imaplib, email, smtplib, and time are part of Python’s standard library.
 
 2️⃣ Start the bot
 
-   python etl_status_bot.py
+   - python etl_status_bot.py
+
 
 **The service will:**
 
-   Connect to PostgreSQL
+   - Connect to PostgreSQL
 
-   Poll the Gmail inbox every configured interval
+   - Poll the Gmail inbox every configured interval
 
-   Auto-respond to new ETL status requests
+   - Auto-respond to new ETL status requests
+
 
 **📬 Email Behavior**
 
@@ -109,32 +115,33 @@ POLL_INTERVAL = 10  #seconds
 
 ✔ Prevents auto-reply loops using email headers
 
-🛡️ Safety & Controls
+**🛡️ Safety & Controls**
 
-   Auto-generated emails include safeguards to prevent recursive replies
+   - Auto-generated emails include safeguards to prevent recursive replies
 
-   Reply chains are skipped to avoid repeated triggers
+   - Reply chains are skipped to avoid repeated triggers
 
-   Database connection is reused for efficiency
+   - Database connection is reused for efficiency
 
-   Gracefully shuts down on keyboard interruption
+   - Gracefully shuts down on keyboard interruption
 
-🚀 Use Cases
+**🚀 Use Cases**
 
-   ETL status transparency for business users
+   - ETL status transparency for business users
 
-   Reduced manual follow-ups to BI teams
+   - Reduced manual follow-ups to BI teams
 
-   Centralized ETL communication channel
+   - Centralized ETL communication channel
 
-   Lightweight alternative to dashboards or ticket systems
+   - Lightweight alternative to dashboards or ticket systems
 
-🏷️ System Name
+**🏷️ System Name**
 
-Email-Driven ETL Status Bot
+   - Email-Driven ETL Status Bot
 
 👤 Owner
 
-BI & Analytics Team
+   - Ganesh Sriram
 
-This service is intended for internal use to improve operational efficiency and communication around ETL delivery timelines.
+
+***This service is intended for internal use to improve operational efficiency and communication around ETL delivery timelines.***
