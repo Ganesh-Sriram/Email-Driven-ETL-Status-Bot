@@ -77,9 +77,9 @@ ETL_NAME = "DAILY_REPORT_ETL"
 POLL_INTERVAL = 10  #seconds
 ```
 
----
-
 **⚠️ Gmail requires App Passwords (2FA enabled).**
+
+---
 
 ▶️ Running the Service
 
@@ -105,15 +105,15 @@ POLL_INTERVAL = 10  #seconds
 
 **📬 Email Behavior**
 
-✔ Responds only to new, unread emails
+   - ✔ Responds only to new, unread emails
 
-✔ Ignores replies and forwards (Re: / Fwd:)
+   - ✔ Ignores replies and forwards (Re: / Fwd:)
 
-✔ Sends non-threaded, standalone responses
+   - ✔ Sends non-threaded, standalone responses
 
-✔ Marks processed emails as Seen
+   - ✔ Marks processed emails as Seen
 
-✔ Prevents auto-reply loops using email headers
+   - ✔ Prevents auto-reply loops using email headers
 
 **🛡️ Safety & Controls**
 
