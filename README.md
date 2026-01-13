@@ -1,6 +1,7 @@
 # 📧 Email-Driven ETL Status Bot
 
 An automated Python service that monitors the daily ETL execution status from a PostgreSQL database and responds to user email queries with real-time ETL updates.  
+
 Users can simply send a blank or short email to a configured inbox and receive an instant, automated status response—eliminating manual follow-ups and unnecessary email escalations.
 
 ---
@@ -59,7 +60,7 @@ All ready-to-use SQL queries for viewing and updating these tables are available
 
 ## ⚙️ Configuration
 
-Update the following values in `etl_status_bot.py`:
+Update the following values in **`etl_status_bot.py`**:
 
 ```
 EMAIL_ID = "your_email@gmail.com"
