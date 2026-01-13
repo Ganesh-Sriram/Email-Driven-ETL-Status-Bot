@@ -81,20 +81,21 @@ POLL_INTERVAL = 10  #seconds
 
 1️⃣ Install dependencies
 
-pip install psycopg2
+   pip install psycopg2
 
-imaplib, email, smtplib, and time are part of Python’s standard library.
+   imaplib, email, smtplib, and time are part of Python’s standard library.
 
 2️⃣ Start the bot
-python etl_status_bot.py
 
-The service will:
+   python etl_status_bot.py
 
-Connect to PostgreSQL
+**The service will:**
 
-Poll the Gmail inbox every configured interval
+   Connect to PostgreSQL
 
-Auto-respond to new ETL status requests
+   Poll the Gmail inbox every configured interval
+
+   Auto-respond to new ETL status requests
 
 **📬 Email Behavior**
 
@@ -109,27 +110,31 @@ Auto-respond to new ETL status requests
 ✔ Prevents auto-reply loops using email headers
 
 🛡️ Safety & Controls
-Auto-generated emails include safeguards to prevent recursive replies
 
-Reply chains are skipped to avoid repeated triggers
+   Auto-generated emails include safeguards to prevent recursive replies
 
-Database connection is reused for efficiency
+   Reply chains are skipped to avoid repeated triggers
 
-Gracefully shuts down on keyboard interruption
+   Database connection is reused for efficiency
+
+   Gracefully shuts down on keyboard interruption
 
 🚀 Use Cases
-ETL status transparency for business users
 
-Reduced manual follow-ups to BI teams
+   ETL status transparency for business users
 
-Centralized ETL communication channel
+   Reduced manual follow-ups to BI teams
 
-Lightweight alternative to dashboards or ticket systems
+   Centralized ETL communication channel
+
+   Lightweight alternative to dashboards or ticket systems
 
 🏷️ System Name
+
 Email-Driven ETL Status Bot
 
 👤 Owner
+
 BI & Analytics Team
 
 This service is intended for internal use to improve operational efficiency and communication around ETL delivery timelines.
