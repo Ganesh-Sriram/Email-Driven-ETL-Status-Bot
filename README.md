@@ -140,9 +140,10 @@ POLL_INTERVAL = 10  #seconds
 
    - Email-Driven ETL Status Bot
 
-👤 Owner
+**👤 Owner**
 
    - Ganesh Sriram
 
 
-***This service is intended for internal use to improve operational efficiency and communication around ETL delivery timelines.***
+
+***(This service is intended for internal use to improve operational efficiency and communication around ETL delivery timelines.)***
