@@ -78,7 +78,9 @@ POLL_INTERVAL = 10  #seconds
 **⚠️ Gmail requires App Passwords (2FA enabled).**
 
 ▶️ Running the Service
+
 1️⃣ Install dependencies
+
 pip install psycopg2
 
 imaplib, email, smtplib, and time are part of Python’s standard library.
@@ -87,6 +89,7 @@ imaplib, email, smtplib, and time are part of Python’s standard library.
 python etl_status_bot.py
 
 The service will:
+
 Connect to PostgreSQL
 
 Poll the Gmail inbox every configured interval
