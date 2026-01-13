@@ -11,8 +11,8 @@ import sys
 # -----------------------------
 # CONFIG
 # -----------------------------
-EMAIL_ID = "thecrestaworks@gmail.com"
-APP_PASSWORD = "aumn xjay alic hwzv"
+EMAIL_ID = "abcde@gmail.com"
+APP_PASSWORD = "*****"
 
 DB_CONFIG = {
     "host": "localhost",
@@ -159,4 +159,5 @@ except KeyboardInterrupt:
 finally:
     cursor.close()
     conn.close()
+
     print("🔒 DB connection closed")
