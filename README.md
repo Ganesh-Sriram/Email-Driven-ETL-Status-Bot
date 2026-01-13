@@ -70,7 +70,7 @@ DB_CONFIG = {
 }
 
 ETL_NAME = "DAILY_REPORT_ETL"
-POLL_INTERVAL = 10  # seconds
+POLL_INTERVAL = 10  # seconds```
 
 **⚠️ Gmail requires App Passwords (2FA enabled).**
 
